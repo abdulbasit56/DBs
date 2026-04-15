@@ -3,8 +3,9 @@
 [![React](https://img.shields.io/badge/React-19.1-61DAFB.svg?logo=react)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1-06B6D4.svg?logo=tailwind-css)](https://tailwindcss.com/)
 [![daisyUI](https://img.shields.io/badge/daisyUI-5.0-FF7B00)](https://daisyui.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
-Point of Sale (POS) system with a React (Vite) frontend and a Node.js (Express) backend.  
+Point of Sale (POS) system with a React (Vite) frontend and a Node.js (Express).  
 The frontend also includes Electron integration for desktop usage.
 
 ![POS Dashboard Preview](https://raw.githubusercontent.com/Ahmadkhan12345566/posb/main/frontend/public/screenshot.png)
@@ -52,6 +53,16 @@ cd frontend
 npm install
 npm run dev -- --host
 ```
+
+## Database (MongoDB)
+
+The backend connects to **MongoDB** using **Mongoose**.
+
+### Environment variable
+Create `backend/.env` and set:
+
+```bash
+MONGODB_URI="your_mongodb_connection_string"
 
 ## Technology Stack
 
