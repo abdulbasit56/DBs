@@ -68,8 +68,7 @@ npm run dev -- --host
 ### Backend
 - **Node.js** + **Express**
 - **Sequelize** (ORM)
-- **mysql2** (MySQL)
-- **oracledb** (Oracle DB)
+- **MongoDB**
 - **jsonwebtoken**, **bcrypt**
 - **multer** (uploads)
 - **express-session**
